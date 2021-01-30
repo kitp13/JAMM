@@ -1,3 +1,3 @@
 # JAMM
-add curios
-add dreamlands dimension
+-*add curios
+-*add dreamlands dimension
