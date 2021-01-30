@@ -1,0 +1,357 @@
+[29Jan2021 22:56:36.216] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 35.1.37, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Dev_\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[29Jan2021 22:56:36.236] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 15.0.1 by Oracle Corporation
+[29Jan2021 22:56:37.948] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29Jan2021 22:56:38.917] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Dev_/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[29Jan2021 22:56:41.970] [main/FATAL] [net.minecraftforge.fml.loading.progress.ClientVisualization/]: WARNING : glfwInit took 1.6562255 seconds to start.
+[29Jan2021 22:57:00.765] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Dev_\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[29Jan2021 23:03:13.442] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jan2021 23:03:33.992] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:556) ~[forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:388) ~[forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+[29Jan2021 23:03:34.436] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[29Jan2021 23:03:42.715] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[29Jan2021 23:06:43.227] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.37, for MC 1.16.4 with MCP 20201102.104115
+[29Jan2021 23:06:43.227] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.37 Initialized
+[29Jan2021 23:06:47.204] [Render thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from Register Block
+[29Jan2021 23:07:09.312] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[29Jan2021 23:07:14.264] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[29Jan2021 23:07:16.495] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Dev_\Documents\Mod\run\config\jei-client.toml is not correct. Correcting
+[29Jan2021 23:07:16.601] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:07:16.602] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.DebugMode was corrected from null to false
+[29Jan2021 23:07:16.602] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.CenterSearch was corrected from null to false
+[29Jan2021 23:07:16.602] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.LowMemorySlowSearchEnabled was corrected from null to false
+[29Jan2021 23:07:16.603] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.GiveMode was corrected from null to MOUSE_PICKUP
+[29Jan2021 23:07:16.603] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.MaxColumns was corrected from null to 100
+[29Jan2021 23:07:16.604] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advanced.RecipeGuiHeight was corrected from null to 350
+[29Jan2021 23:07:16.607] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:07:16.607] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key colors.SearchColors was corrected from null to [White:EEEEEE, LightBlue:7492cc, Cyan:00EEEE, Blue:2222dd, LapisBlue:25418b, Teal:008080, Yellow:cacb58, GoldenYellow:EED700, Orange:d97634, Pink:D1899D, HotPink:FC0FC0, Magenta:b24bbb, Purple:813eb9, JadedPurple:43324f, EvilPurple:2e1649, Lavender:B57EDC, Indigo:480082, Sand:dbd3a0, Tan:bb9b63, LightBrown:A0522D, Brown:634b33, DarkBrown:3a2d13, LimeGreen:43b239, SlimeGreen:83cb73, Green:008000, DarkGreen:224d22, GrassGreen:548049, Red:963430, BrickRed:b0604b, NetherBrick:2a1516, Redstone:ce3e36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0]
+[29Jan2021 23:07:16.805] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:07:16.806] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.IngredientSortStages was corrected from null to [MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU]
+[29Jan2021 23:07:16.810] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:07:16.811] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ModNameSearchMode was corrected from null to REQUIRE_PREFIX
+[29Jan2021 23:07:16.811] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TooltipSearchMode was corrected from null to ENABLED
+[29Jan2021 23:07:16.841] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.TagSearchMode was corrected from null to REQUIRE_PREFIX
+[29Jan2021 23:07:16.842] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.CreativeTabSearchMode was corrected from null to DISABLED
+[29Jan2021 23:07:16.842] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ColorSearchMode was corrected from null to DISABLED
+[29Jan2021 23:07:16.843] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.ResourceIdSearchMode was corrected from null to DISABLED
+[29Jan2021 23:07:16.843] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key search.SearchAdvancedTooltips was corrected from null to false
+[29Jan2021 23:07:16.847] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:07:16.848] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modname.ModNameFormat was corrected from null to blue italic
+[29Jan2021 23:08:03.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[29Jan2021 23:08:03.812] [Worker-Main-7/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM PREINIT
+[29Jan2021 23:08:03.813] [Worker-Main-7/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[29Jan2021 23:08:04.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 35.1.37 Target: null
+[29Jan2021 23:08:15.849] [Worker-Main-8/INFO] [com.example.examplemod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@107d3773
+[29Jan2021 23:08:17.383] [Worker-Main-7/INFO] [com.example.examplemod.ExampleMod/]: Hello world from the MDK
+[29Jan2021 23:08:17.384] [Worker-Main-7/INFO] [com.example.examplemod.ExampleMod/]: Got IMC [Hello world]
+[29Jan2021 23:08:46.263] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[29Jan2021 23:08:46.266] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[29Jan2021 23:08:48.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[29Jan2021 23:08:48.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[29Jan2021 23:08:49.142] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[29Jan2021 23:08:49.151] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Jan2021 23:08:49.177] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Jan2021 23:08:49.208] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29Jan2021 23:08:49.216] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29Jan2021 23:08:49.226] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Jan2021 23:08:52.530] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Jan2021 23:08:52.549] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Jan2021 23:08:52.554] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Jan2021 23:08:53.882] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[29Jan2021 23:09:15.177] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Jan2021 23:09:15.180] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Jan2021 23:09:15.184] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Jan2021 23:09:15.189] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29Jan2021 23:09:15.193] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29Jan2021 23:09:15.383] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.37_mapped_snapshot_20201028-1.16.3-recomp.jar, main, jei-1.16.4-7.6.1.65_mapped_snapshot_20201028-1.16.3.jar
+[29Jan2021 23:09:22.411] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29Jan2021 23:09:27.500] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[29Jan2021 23:09:31.173] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Jan2021 23:09:31.725] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
+[29Jan2021 23:09:31.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Jan2021 23:09:32.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[29Jan2021 23:09:32.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[29Jan2021 23:09:32.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[29Jan2021 23:09:32.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[29Jan2021 23:09:32.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[29Jan2021 23:09:32.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[29Jan2021 23:09:32.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[29Jan2021 23:09:32.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[29Jan2021 23:09:32.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[29Jan2021 23:09:32.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[29Jan2021 23:09:32.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[29Jan2021 23:09:32.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[29Jan2021 23:09:49.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Jan2021 23:09:52.314] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.349] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.349] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.350] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.350] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.351] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:52.862] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:53.335] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:53.838] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:54.330] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:54.843] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:55.353] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:55.815] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:57.062] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:57.062] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:57.442] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:57.842] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:58.446] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:59.993] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:59.993] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:09:59.993] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:10:01.266] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:10:01.266] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:10:01.333] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29Jan2021 23:10:01.837] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:02.331] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:02.990] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.634] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.634] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.634] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.634] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.707] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[29Jan2021 23:10:06.707] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:06.707] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:06.840] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:07.319] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:07.816] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:09.600] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:09.600] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:09.600] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:10.374] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:10.374] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[29Jan2021 23:10:10.832] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[29Jan2021 23:10:11.310] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[29Jan2021 23:10:11.840] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:12.316] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:12.845] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:13.345] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:13.883] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:14.314] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:14.839] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:15.337] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:15.809] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:16.313] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:16.838] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:18.024] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:18.078] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[29Jan2021 23:10:18.327] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:18.844] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:19.316] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:19.833] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:20.645] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:21.503] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:21.503] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[29Jan2021 23:10:21.814] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:22.331] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:24.041] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:24.041] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:24.042] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:24.312] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:24.870] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[29Jan2021 23:10:25.330] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[29Jan2021 23:10:25.827] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[29Jan2021 23:10:26.334] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[29Jan2021 23:10:26.827] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[29Jan2021 23:10:27.357] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29Jan2021 23:10:27.845] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29Jan2021 23:10:28.350] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29Jan2021 23:10:28.830] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29Jan2021 23:10:29.317] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[29Jan2021 23:10:29.836] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
+[29Jan2021 23:10:30.321] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[29Jan2021 23:10:30.854] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[29Jan2021 23:10:31.317] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[29Jan2021 23:10:31.812] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[29Jan2021 23:10:32.330] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[29Jan2021 23:10:32.810] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[29Jan2021 23:10:33.338] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[29Jan2021 23:10:33.847] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[29Jan2021 23:10:34.318] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[29Jan2021 23:10:36.027] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:36.027] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:36.028] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:36.321] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:36.819] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:37.329] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[29Jan2021 23:10:37.835] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[29Jan2021 23:10:38.340] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[29Jan2021 23:10:38.837] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[29Jan2021 23:10:39.339] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[29Jan2021 23:10:42.526] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:42.526] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:42.526] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:42.526] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:42.526] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:42.527] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.154] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.155] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[29Jan2021 23:10:46.436] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:46.886] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:49.117] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:49.118] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:49.118] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:49.118] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[29Jan2021 23:10:50.167] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 54%
+[29Jan2021 23:10:50.167] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 54%
+[29Jan2021 23:10:50.311] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[29Jan2021 23:10:50.869] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 57%
+[29Jan2021 23:10:51.371] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[29Jan2021 23:10:54.480] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[29Jan2021 23:10:54.480] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[29Jan2021 23:10:54.480] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[29Jan2021 23:10:54.480] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[29Jan2021 23:10:54.480] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[29Jan2021 23:10:54.481] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 60%
+[29Jan2021 23:10:54.841] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[29Jan2021 23:10:56.415] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 66%
+[29Jan2021 23:10:56.415] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 66%
+[29Jan2021 23:10:56.415] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 66%
+[29Jan2021 23:10:56.995] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[29Jan2021 23:10:57.325] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
+[29Jan2021 23:10:58.172] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
+[29Jan2021 23:10:58.448] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[29Jan2021 23:10:59.368] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[29Jan2021 23:10:59.368] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[29Jan2021 23:11:00.797] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
+[29Jan2021 23:11:00.797] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
+[29Jan2021 23:11:00.832] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
+[29Jan2021 23:11:03.871] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:03.871] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:03.871] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:03.871] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:03.872] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:03.872] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[29Jan2021 23:11:04.940] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[29Jan2021 23:11:04.940] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[29Jan2021 23:11:05.398] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[29Jan2021 23:11:06.097] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[29Jan2021 23:11:06.541] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[29Jan2021 23:11:09.077] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[29Jan2021 23:11:09.077] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[29Jan2021 23:11:09.077] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[29Jan2021 23:11:09.077] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[29Jan2021 23:11:09.077] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[29Jan2021 23:11:09.855] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[29Jan2021 23:11:09.891] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[29Jan2021 23:11:09.963] [Server thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from server starting
+[29Jan2021 23:11:09.995] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 80186 ms
+[29Jan2021 23:11:17.440] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 2, from 10
+[29Jan2021 23:11:17.471] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7458ms or 149 ticks behind
+[29Jan2021 23:11:47.000] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14537ms or 290 ticks behind
+[29Jan2021 23:12:13.209] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4696ms or 93 ticks behind
+[29Jan2021 23:12:36.354] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7290ms or 145 ticks behind
+[29Jan2021 23:13:05.770] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3007ms or 60 ticks behind
+[29Jan2021 23:13:25.139] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[29Jan2021 23:13:29.025] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5d8278d6
+[29Jan2021 23:13:29.591] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:5b8eb519] logged in with entity id 356 at (-147.5, 73.0, 81.5)
+[29Jan2021 23:13:32.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29Jan2021 23:13:36.163] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11000ms or 220 ticks behind
+[29Jan2021 23:13:44.209] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Jan2021 23:13:44.776] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[29Jan2021 23:13:44.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jan2021 23:13:52.456] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[29Jan2021 23:13:52.473] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 16.89 ms
+[29Jan2021 23:13:52.474] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[29Jan2021 23:13:53.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jan2021 23:13:53.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jan2021 23:13:55.013] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 2.539 s
+[29Jan2021 23:13:55.013] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[29Jan2021 23:13:55.017] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 3.723 ms
+[29Jan2021 23:13:55.018] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[29Jan2021 23:13:55.334] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 316.1 ms
+[29Jan2021 23:13:56.289] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[29Jan2021 23:13:58.521] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 2.233 s
+[29Jan2021 23:13:58.649] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 13.87 s
+[29Jan2021 23:13:59.153] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7990ms or 159 ticks behind
+[29Jan2021 23:13:59.202] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[29Jan2021 23:14:27.370] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[29Jan2021 23:14:52.465] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10101ms or 202 ticks behind
+[29Jan2021 23:15:09.418] [Render thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[29Jan2021 23:15:22.678] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
+[29Jan2021 23:16:02.264] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Jan2021 23:16:33.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jan2021 23:16:34.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jan2021 23:16:34.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jan2021 23:16:37.379] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 35065ms or 701 ticks behind
+[29Jan2021 23:17:12.920] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[29Jan2021 23:18:14.679] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[29Jan2021 23:18:14.680] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[29Jan2021 23:18:17.012] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[29Jan2021 23:18:17.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x3 minecraft:textures/atlas/blocks.png-atlas
+[29Jan2021 23:18:17.835] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x3 minecraft:textures/atlas/signs.png-atlas
+[29Jan2021 23:18:18.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x3 minecraft:textures/atlas/banner_patterns.png-atlas
+[29Jan2021 23:18:18.182] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x3 minecraft:textures/atlas/shield_patterns.png-atlas
+[29Jan2021 23:18:18.200] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x3 minecraft:textures/atlas/chest.png-atlas
+[29Jan2021 23:18:18.206] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x3 minecraft:textures/atlas/beds.png-atlas
+[29Jan2021 23:18:18.217] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x3 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29Jan2021 23:18:20.182] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[29Jan2021 23:18:20.195] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29Jan2021 23:18:20.199] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29Jan2021 23:18:20.351] [Render thread/INFO] [mezz.jei.startup.ClientLifecycleHandler/]: Restarting JEI.
+[29Jan2021 23:18:20.351] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[29Jan2021 23:18:20.533] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[29Jan2021 23:18:20.536] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 3.296 ms
+[29Jan2021 23:18:20.536] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[29Jan2021 23:18:20.716] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 179.6 ms
+[29Jan2021 23:18:20.717] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[29Jan2021 23:18:20.717] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 350.9 ?s
+[29Jan2021 23:18:20.718] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[29Jan2021 23:18:20.779] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 61.40 ms
+[29Jan2021 23:18:20.780] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[29Jan2021 23:18:20.782] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 1.977 ms
+[29Jan2021 23:18:20.794] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 441.8 ms
+[29Jan2021 23:18:26.547] [Render thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[29Jan2021 23:18:36.971] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Jan2021 23:18:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jan2021 23:18:44.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jan2021 23:18:44.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jan2021 23:18:45.106] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9043ms or 180 ticks behind
+[29Jan2021 23:20:11.601] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Advanced tooltips: shown
+[29Jan2021 23:20:57.765] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 16 advancements
+[29Jan2021 23:21:07.001] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[29Jan2021 23:21:08.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jan2021 23:21:09.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jan2021 23:21:09.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jan2021 23:21:10.926] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3963ms or 79 ticks behind
+[29Jan2021 23:21:11.041] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[29Jan2021 23:21:11.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[29Jan2021 23:21:14.248] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[29Jan2021 23:21:14.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jan2021 23:21:14.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jan2021 23:21:14.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Jan2021 23:21:14.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29Jan2021 23:21:29.305] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29Jan2021 23:21:29.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29Jan2021 23:21:29.309] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jan2021 23:21:29.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29Jan2021 23:21:29.312] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jan2021 23:21:30.131] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29Jan2021 23:21:33.593] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jan2021 23:21:33.594] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jan2021 23:21:38.700] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

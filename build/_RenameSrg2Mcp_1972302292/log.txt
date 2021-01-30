@@ -1,0 +1,12 @@
+Args: "--task", "SRG_TO_MCP", "--input", "C:\Users\Dev_\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.16.4\7.6.1.65\d6c213feb2b2931ea5470d668c2e8914ced40c6f\jei-1.16.4-7.6.1.65.jar", "--output", "C:\Users\Dev_\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.16.4\7.6.1.65_mapped_snapshot_20201028-1.16.3\jei-1.16.4-7.6.1.65_mapped_snapshot_20201028-1.16.3.jar", "--mcp", "C:\Users\Dev_\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20201028-1.16.3\mcp_snapshot-20201028-1.16.3.zip", "--strip-signatures"
+Classpath: C:\Users\Dev_\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.1.10\installertools-1.1.10-fatjar.jar
+WorkDir: C:\Users\Dev_\Documents\Mod\build\_RenameSrg2Mcp_1972302292
+Main: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Dev_\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.16.4\7.6.1.65\d6c213feb2b2931ea5470d668c2e8914ced40c6f\jei-1.16.4-7.6.1.65.jar
+Output: C:\Users\Dev_\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.16.4\7.6.1.65_mapped_snapshot_20201028-1.16.3\jei-1.16.4-7.6.1.65_mapped_snapshot_20201028-1.16.3.jar
+MCP:    C:\Users\Dev_\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20201028-1.16.3\mcp_snapshot-20201028-1.16.3.zip
+Loading MCP Data
+Stripped Manifest of sha digests
+Process complete
